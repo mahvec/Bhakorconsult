@@ -1,0 +1,132 @@
+* {
+  overflow-x: hidden;
+}
+
+.link-underline {
+  border-bottom-width: 0;
+  background-image: linear-gradient(transparent, transparent),
+    linear-gradient(#fff, #fff);
+  background-size: 0 3px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.5s ease-in-out;
+}
+
+.link-underline-black {
+  background-image: linear-gradient(transparent, transparent),
+    linear-gradient(#00b140, #00b140);
+}
+
+.link-underline:hover {
+  background-size: 50px 2px;
+  background-position: 0 100%;
+}
+
+/* Styling for the tab content */
+
+.tab-pane {
+  display: none;
+}
+
+.tab-pane.active {
+  display: block;
+}
+
+.card {
+  border-bottom: 5px solid #00b140;
+  background: #ccefd9;
+  cursor: pointer;
+  margin: 10px;
+  transition: 1s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.card:hover {
+  color: #fff;
+}
+
+.card::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 200%;
+  height: 200%;
+  background: #00B140;
+  transform: translateY(200%);
+  transition: 0.8s;
+  z-index: -1;
+}
+
+.card:hover::before {
+  transform: translateY(0);
+  transition: 0.8s;
+}
+
+.card2 {
+  border-bottom: 5px solid #F9A825;
+  background: #f6fff9;
+  cursor: pointer;
+  margin: 10px;
+  transition: 1s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.card2:hover {
+  color: #fff;
+}
+
+.card2::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 200%;
+  height: 200%;
+  background: #F9A825;
+  transform: translateY(200%);
+  transition: 0.8s;
+  z-index: -1;
+}
+
+.card2:hover::before {
+  transform: translateY(0);
+  transition: 0.8s;
+}
+
+.card3 {
+  border-bottom: 5px solid #FF7754;
+  background: #f6fff9;
+  cursor: pointer;
+  margin: 10px;
+  transition: 1s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.card3:hover {
+  color: #fff;
+}
+
+.card3::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 200%;
+  height: 200%;
+  background: #FF7754;
+  transform: translateY(200%);
+  transition: 0.8s;
+  z-index: -1;
+}
+
+.card3:hover::before {
+  transform: translateY(0);
+  transition: 0.8s;
+}
