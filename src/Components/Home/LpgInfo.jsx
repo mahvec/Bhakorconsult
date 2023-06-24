@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { AccordionData } from "../Items/AccordionItems";
-import LpgBg from "../../assets/Images/Lpg.jpg";
+import LpgBg from "../../assets/images/lpg.jpg";
 import { Link } from "react-router-dom";
 
 function LpgInfo() {
