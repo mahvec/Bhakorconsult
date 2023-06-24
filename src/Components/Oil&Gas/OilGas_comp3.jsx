@@ -1,6 +1,6 @@
 import React from "react";
 import Image1 from "../../assets/images/Rectangle105.jpg";
-import Image2 from "../../assets/images/WhoAreWe.jpg";
+import Image2 from "../../assets/images/who.jpg";
 import { proManagement } from "../../utils/array";
 import { oilFlow } from "../../utils/array";
 
