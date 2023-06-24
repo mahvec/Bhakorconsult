@@ -1,5 +1,5 @@
 import React from "react";
-import image1 from "../../assets/images/whoAreWe.jpg";
+import image1 from "../../assets/images/who.jpg";
 import image2 from "../../assets/images/about1.jpg";
 import { data } from "../../utils/array";
 

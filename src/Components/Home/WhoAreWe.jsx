@@ -1,5 +1,5 @@
 import React from "react";
-import Who from "../../assets/Images/WhoAreWe.jpg";
+import Who from "../../assets/images/who.jpg";
 import { Link } from "react-router-dom";
 
 function WhoAreWe() {
