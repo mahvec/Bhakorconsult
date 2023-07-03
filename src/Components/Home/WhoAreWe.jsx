@@ -10,7 +10,7 @@ function WhoAreWe() {
           <img
             src={Who}
             alt="Who-are-we.jpg"
-            className="sm:w-auto sm:h-[566px] "
+            className="sm:w-auto xl:h-[566px] "
           />
         </div>
         <div className="lg:w-1/2 p-1">

@@ -16,7 +16,7 @@ function HeroSlide({
     let interval = null;
 
     if (isActive) {
-      interval = setInterval(handleNextSlide, 5000);
+      interval = setInterval(handleNextSlide, 7000);
     }
 
     setAutoSlideInterval(interval);
@@ -32,17 +32,17 @@ function HeroSlide({
         }`}
     >
       <div className="lg:w-[40%]">
-        <div className="flex flex-col bg-white justify-center xl:pl-10 lg:pl-5 lg:pr-20 xl:pr-[100px] lg:absolute lg:w-[60%] xl:w-[58%] lg:mt-6 xl:mt-28 rounded  transition ease-in-out duration-700">
+        <div className="flex flex-col bg-white justify-center xl:pl-10 lg:pl-5 lg:pr-20 xl:pr-[100px] lg:absolute lg:w-[50%] xl:w-[58%] lg:mt-2 xl:mt-28 rounded transition ease-in-out duration-700">
           <h1 className="font-bold lg:text-[40px] lg:leading-[60px] xl:text-[50px] xl:leading-[80px] mt-10">
             {slide.title}
           </h1>
-          <p className="text-sm xl:text-base">{slide.text}</p>
+          <p className="text-sm xl:text-base leading-7 py-2">{slide.text}</p>
 
-          <Link to='/about-bhakor' className="bg-[#00B140] lg:w-fit py-2 px-6 mt-12 lg:mb-16 xl:mb-24 text-white rounded">
+          <Link to='/about-bhakor' className="bg-[#00B140] lg:w-fit py-2 px-6 mt-12 lg:mt-6 xl:mt-10 lg:mb-8 xl:mb-16 text-white rounded">
             Learn More
           </Link >
         </div>
-        <div className="h-full w-full flex gap-5 items-end justify-evenly">
+        <div className=" h-full w-full flex gap-5 items-end justify-evenly overflow-y-hidden">
           {/* NEXT AND PREVIOUS BUTTON  */}
           <div className="flex gap-1 lg:gap-6 justify-center items-center">
             <div
@@ -79,7 +79,7 @@ function HeroSlide({
         <img
           src={slide.image}
           alt=""
-          className="xl:w-[870px] xl:h-[600px]  transition ease-in-out duration-700"
+          className="xl:w-[870px] xl:h-auto  transition ease-in-out duration-700"
         />
       </div>
     </div>

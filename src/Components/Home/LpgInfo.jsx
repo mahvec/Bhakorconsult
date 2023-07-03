@@ -29,7 +29,7 @@ function LpgInfo() {
             <p className="sm:text-[20px] lg:text-[20px] font-bold leading-[120%] mb-5 py-3 ">
               LPG DISTRIBUTION SERVICES
             </p>
-            <p className="sm:text-[20px] h-auto leading-7 xl:leading-[40px] text-justify mb-8">
+            <p className="sm:text-[18px] h-auto leading-7 xl:leading-[40px] text-justify mb-8">
               Bhakor is a major distributor of LPG products in Nigeria and duly
               registered to sell LPG across the nation and beyond. Bhakor has in
               its kitty, fleets of Bridger trucks for bulk delivery to all parts

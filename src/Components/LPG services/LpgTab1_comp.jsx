@@ -2,10 +2,6 @@ import React, { useState } from "react";
 import LpgGas1 from "../../assets/images/lpg111.jpg";
 import LpgGas2 from "../../assets/images/lpg112.jpg";
 import LpgGas3 from "../../assets/images/lpg113.jpg";
-import LpgGas4 from "../../assets/images/lpg1745.jpg";
-import Gas from "../../assets/images/gas-flaring1.jpg";
-import OilImg1 from "../../assets/images/lpg1174.jpg";
-import oilImg2 from "../../assets/images/lpg1746.jpg";
 import oilImg3 from "../../assets/images/demand.jpg";
 import oilImg4 from "../../assets/images/lpg117.jpg";
 
@@ -16,7 +12,7 @@ import {
   logistics,
   finance,
 } from "../../utils/array";
-import { data } from "autoprefixer";
+
 
 import ImageCarousel from "../../utils/ImageCarousel";
 import LpgTab10_comp from "./LpgTab10_comp";

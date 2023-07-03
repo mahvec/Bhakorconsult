@@ -19,7 +19,7 @@ const App = () => {
   };
 
   return (
-    <div className={`bg-${back} bg-no-repeat bg-cover bg-center justify-center  transition ease-in-out duration-700 mt-10 lg:mt-28`}>
+    <div style={{ backgroundImage: `url(${back})` }} className={` bg-no-repeat bg-cover bg-center justify-center  transition ease-in-out duration-700 mt-10 lg:mt-28`}>
 
       <div
         className=""
