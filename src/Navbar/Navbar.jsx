@@ -10,12 +10,12 @@ function Navbar() {
   const [nav, setNav] = useState(true);
 
   const handleNav = () => setNav(!nav);
-
+  const activeLink = "text-[#00B140]";
   return (
     <div className="fixed w-full z-50 bg-white">
       {/* // navigation bar on desktop view */}
       <div className="max-w-[1440px] mx-auto z-50 bg-white">
-        <div className="lg:flex w-screen mx-auto items-center justify-between max-w-[1440px] px-5 hidden">
+        <div className="lg:flex w-screen mx-auto items-center justify-between max-w-[1440px] px-5 py-1 hidden">
           <Link to='/'>
             <img src={Logo} alt="" className="p-1" />
           </Link>
@@ -29,9 +29,11 @@ function Navbar() {
           </div>
         </div>
         <div className="lg:flex items-center justify-between text-sm xl:text-base mt-2 hidden mb-3 px-5 gap-5">
-          <div className="flex items-center justify-between w-full">
+          <div className="flex items-center justify-between w-full font-medium">
             {NavbarArray.map((navbar, id) => (
-              <NavLink to={navbar.to} key={id} className="font-medium">
+              <NavLink to={navbar.to} key={id} className={({ isActive }) =>
+                isActive ? activeLink : ''
+              }>
                 <p className="hover:text-[#00B140] link link-underline link-underline-black">
                   {navbar.name}
                 </p>
@@ -87,9 +89,12 @@ function Navbar() {
           <div key={id} className="p-3 font-medium w-fit self-center">
             <Link
               to={navbar.to}
-              className="hover:text-[#00B140] link link-underline link-underline-black"
+              className={({ isActive }) =>
+                isActive ? activeLink : ''
+              }
             >
-              {navbar.name}
+              <p className="hover:text-[#00B140] link link-underline link-underline-black">{navbar.name}</p>
+
             </Link>
           </div>
         ))}

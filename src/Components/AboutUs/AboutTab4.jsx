@@ -25,11 +25,11 @@ function AboutTab4() {
   return (
     <div>
       <div>
-        <div className="lg:flex justify-between pb-10">
-          <div className="py-16">
+        <div className="lg:flex justify-between pb-10 gap-5">
+          <div className="lg:w-1/2 py-16">
             <img
               src={image}
-              className="lg:w-[596px] lg:h-[753px]"
+              className=""
               alt="image 1"
             />
           </div>
@@ -44,7 +44,7 @@ function AboutTab4() {
               {data.map((data, id) => (
                 <div key={id} className="flex items-center gap-5 my-2">
                   <p className="w-[10px] h-[10px] bg-[#FF7754] p-2 rounded-full"></p>
-                  <p className="leading-8 text-justify">{data.name}</p>
+                  <p className="leading-8 lg:text-[20px] lg:leading-10 text-justify">{data.name}</p>
                 </div>
               ))}
             </div>

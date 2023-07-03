@@ -22,7 +22,7 @@ function BhakorCards() {
             innovation.
           </p>
         </div>
-        <div className="card2 lg:w-[440px] lg:h-[360px] border rounded bg-[#FEEED3] p-5  lg:p-8">
+        <div className="card2 lg:w-[440px] lg:h-[360px] rounded bg-[#FEEED3] p-5  lg:p-8">
           <div className="flex flex-col lg:flex-row lg:items-center lg:mb-4 gap-3">
             <div className="w-[40px] h-[40px] flex items-center justify-center  xl:w-[80px] xl:h-[80px] rounded-full bg-[#F9A825]">
               <HiOutlineLightBulb size={35} />
@@ -37,7 +37,7 @@ function BhakorCards() {
             program and upgrade functionalities.
           </p>
         </div>
-        <div className="card3 lg:w-[440px] lg:h-[360px] border rounded bg-[#FFDAD0] p-5  lg:p-8">
+        <div className="card3 lg:w-[440px] lg:h-[360px] rounded bg-[#FFDAD0] p-5  lg:p-8">
           <div className="flex flex-col lg:flex-row lg:items-center lg:mb-4 gap-4">
             <div className="w-[40px] h-[40px] flex items-center justify-center xl:w-[80px] xl:h-[80px] rounded-full bg-[#FF7754]">
               <AiOutlineTeam size={35} />

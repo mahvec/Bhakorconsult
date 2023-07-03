@@ -7,18 +7,18 @@ function AboutTab1() {
   return (
     <div>
       <div className="lg:flex flex-row-reverse gap-5 pb-10">
-        <div className="py-16">
+        <div className="lg:w-[50%] py-16">
           <img
             src={image1}
-            className="lg:w-[450px] lg:h-[490px]"
+            className=""
             alt="image 1"
           />
         </div>
-        <div className="lg:w-1/2">
+        <div className="lg:w-[40%]">
           <p className="text-[25px] leading-[40px] font-bold mb-5">
             ABOUT US AT BHAKOR CONSULT
           </p>
-          <p className="text-justify  leading-10">
+          <p className="text-justify lg:text-[20px] leading-8 lg:leading-10">
             BHAKOR CONSULT LIMITED is an innovative Information and
             Communication Technologies (ICT) service provider, Energy and
             Consultancy Services company. We design, develop, support and

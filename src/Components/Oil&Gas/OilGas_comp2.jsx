@@ -42,11 +42,11 @@ function OilGas_comp2() {
           </div>
         </div>
       </div>
-      <div className="lg:flex flex-row-reverse gap-5 mt-20">
-        <div>
+      <div className="lg:flex flex-row-reverse gap-5 my-20">
+        <div className="lg:w-1/2">
           <img src={Image1} alt="" className="lg:h-[678px] w-auto " />
         </div>
-        <div>
+        <div className="lg:w-1/2">
           <div className="flex gap-5 items-center mt-5 mb-10">
             <img src={icon2} alt="02" className="w-[50px] h-auto" />
             <h1 className="text-[26px] leading-[50px] font-bold ">
