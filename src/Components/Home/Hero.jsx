@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { slides } from "../../utils/array";
 import HeroSlide from "./HeroSlide";
+import back from "../../assets/images/aboutbhakor.jpg"
 
 const App = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -18,7 +19,7 @@ const App = () => {
   };
 
   return (
-    <div className="bg-[url('/src/assets/images/aboutbhakor.jpg')] bg-no-repeat bg-cover bg-center justify-center  transition ease-in-out duration-700 mt-10 lg:mt-28">
+    <div className={`bg-${back} bg-no-repeat bg-cover bg-center justify-center  transition ease-in-out duration-700 mt-10 lg:mt-28`}>
 
       <div
         className=""

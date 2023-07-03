@@ -44,6 +44,7 @@ function Navbar() {
                 <CiSearch />
               </div>
               <input
+                id="search"
                 type="search"
                 className="block p-1 pl-10 w-[100%] text-sm text-gray-700 bg-gray-100 rounded-lg outline-none border border-gray-200 focus:ring-blue-300 mr-28"
                 placeholder="Search..."

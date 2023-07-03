@@ -3,7 +3,15 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  node: {
+    fs: "empty"
+  },
   plugins: [react()],
+  resolve: {
+    fallback: {
+      fs: false
+    }
+  },
   build: {
     rollupOptions: {
       output: {
@@ -15,4 +23,5 @@ export default defineConfig({
       }
     }
   },
+
 })

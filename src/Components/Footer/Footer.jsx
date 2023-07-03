@@ -4,10 +4,14 @@ import { TbCalendarTime } from "react-icons/tb";
 import { AiOutlineTwitter, AiFillInstagram } from "react-icons/ai";
 import { FaFacebookF } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import footer from '../../assets/images/footer.jpg'
 
 function Footer() {
+  const foot = footer
+
   return (
-    <div className="max-w-[1900px] mx-auto h-auto bg-[url('/src/assets/images/footer.jpg')] bg-cover bg-center flex items-center justify-center px-5 py-8 lg:px-10 lg:py-10">
+    <div className={`max-w-[1900px] mx-auto h-auto bg-cover bg-center flex items-center justify-center px-5 py-8 lg:px-10 lg:py-10`}
+      style={{ backgroundImage: `url(${foot})` }}>
       <div className="max-w-[1400px] mx-auto sm:grid sm:grid-cols-3 sm:gap-16 gap-4">
         <div className="text-white">
           <div className="mb-8 lg:mb-16">
