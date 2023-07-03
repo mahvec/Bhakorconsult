@@ -7,7 +7,7 @@ import logo4 from "../../assets/icons/gasland.svg";
 import logo5 from "../../assets/icons/chimons.svg";
 import logo6 from "../../assets/icons/techoil.svg";
 import logo7 from "../../assets/icons/forte.svg";
-import logo8 from "../../assets/icons/oando.svg";
+import logo8 from "../../assets/icons/Oando.svg";
 import logo9 from "../../assets/icons/pipe.svg";
 import recharge from "../../assets/icons/Recharge.svg";
 
